@@ -11,6 +11,12 @@ default_lookup_options: MostSpecific
 lookup_options:
   Configurations:
     merge_basetype_array: Unique
+  
+  FilesAndFolders:
+    merge_hash: deep
+
+  FilesAndFolders\Items:
+    merge_hash_array: DeepItemMergeByTuples
 
   Baseline:
     merge_hash: deep

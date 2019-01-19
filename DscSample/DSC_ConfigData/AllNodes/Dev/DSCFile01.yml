@@ -14,3 +14,8 @@ LcmConfig:
   ConfigurationRepositoryWeb:
     Server:
       ConfigurationNames: DSCFile01
+
+FilesAndFolders:
+  Items:
+    - DestinationPath: C:\TestFolderInDev
+      Type: Directory
